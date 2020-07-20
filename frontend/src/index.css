@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  font-size: 16px;
+}
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: black;
+}
+body::-webkit-scrollbar-thumb {
+  background: darkorchid;
+}
+:root {
+  font-size: 16px;
+}
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+.navbar {
+  position: fixed;
+ 
+}
+.navbar-nav {
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.badge {
+  background-color: darkorchid;
+}
+
+.nav-link svg {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 0;
+}
+.input {
+  display: flex;
+  height: 40px !important;
+  margin-left: 15% !important;
+  position: relative;
+}
+.containinput {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  position: fixed;
+}
+.changlecolorbtn{
+  padding: 5px;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+}
+.btncolor {
+  width: 36px;
+  border-radius: 2px;
+}
+
+.colormenu {
+  position: absolute;
+  z-index: 100;
+}
+
+.menucovor{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.imageframe{
+  display: flex;
+  height: 600px;
+  width: 600px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.canvas{
+  border: 2px solid black;
+}
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  top: 0;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
+.nav-item {
+  padding-top: 2rem;
+  margin-left: 0;
+}
+.inputslider{
+  left: 0;
+  position: fixed;
+  margin-top: 5%;
+  transform: translateX(-50px) rotate(-90deg);
+}
+.box {
+  display: flex;
+  margin-left: 5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.canvaslink {
+  display: flex;
+  width: 600px !important;
+  height: 600px;
+  white-space: nowrap;
+}
